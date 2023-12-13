@@ -1,0 +1,24 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightsta1ker/Express-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightsta1ker/Express-API/issues"
+  },
+  "homepage": "https://github.com/lightsta1ker/Express-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

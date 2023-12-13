@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "dde8840b-523a-4f6d-b2b5-43603c508a9e",
+		"name": "express-api-local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get employees",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "change team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:4242/employees",
+					"host": [
+						"localhost"
+					],
+					"port": "4242",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
